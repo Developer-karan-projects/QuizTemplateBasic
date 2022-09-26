@@ -1,0 +1,58 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+     background-color: #4783c2;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.container{
+     height: 500px;
+     width: 600px;
+     /* box-shadow: -20px 17px 10px #143ba8; */
+     background-color: aliceblue;
+     border-radius: 6px;
+     border-top: 8px solid rgb(255, 217, 0);
+}
+.question{
+     font-weight: 400;
+     background-color: #f3f3f3;
+     display: flex;
+     align-items: center;
+     height: 80px;
+     padding: 20px;
+     margin: 10px;
+     border-radius: 4px;
+     border: 2px solid rebeccapurple;
+}
+.optionForUser{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     background-color: #fdfdfd;
+     min-height: 200px;
+     padding: 20px;
+     margin: 10px;
+     border-radius: 4px;
+     border: 2px solid rebeccapurple;
+}
+button{
+     box-sizing: border-box;
+     background-color: cornflowerblue;
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     margin: 10px;
+     width: 580px;
+     border-radius: 5px;
+     font-weight:500 ;
+}
